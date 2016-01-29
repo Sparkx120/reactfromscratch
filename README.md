@@ -1,6 +1,6 @@
 #React From Scratch
 
-I have included basically all the bare essentials to make a full fledges web app.
+I have included basically all the bare essentials to make a full fledged web app.
 
 ##Quick Start
 If you have not done so already you should probably go grab a copy of nodejs.
@@ -10,6 +10,7 @@ Fork or Clone this repo.
 Copy this structure into a new folder on your computer
 
 run `npm install -g webpack`
+
 run `npm install` 
 
 run `webpack` to build the bundle and open index.html to see the result.
