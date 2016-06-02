@@ -6,8 +6,9 @@ import { render } from 'react-dom';
 import App from './components/App.jsx';
 
 render((
-  <Router>
-	  <Route path="/" component={App}>
-		</Route>
-	</Router>
+	<div>
+		<Router>
+			<Route path="/" component={App}></Route>
+		</Router>
+	</div>
 ), document.getElementById('react'));

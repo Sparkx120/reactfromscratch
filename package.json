@@ -9,9 +9,12 @@
     "dev": "webpack-dev-server --port 3000 --watch --colors --hot"
   },
   "author": "James Wake <sparkx120@sparkx120.com> (http://sparkx120.com)",
+  "repository": {
+   "type": "git",
+   "url":"git@github.com:Sparkx120/reactfromscratch.git"
+  },
   "license": "MIT",
   "dependencies": {
-    "babel-core": "^6.4.5",
     "babel-polyfill": "^6.3.14",
     "history": "^1.17.0",
     "react": "^0.14.7",
