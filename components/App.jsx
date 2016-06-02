@@ -1,11 +1,11 @@
 import React from 'react';
 
-const App = React.createClass({
-  render: function() {
+class App extends React.component {
+  render() {
     return(
 			<h1>Hello World</h1>
 		)
 	}
-});
+};
 
 export default App;

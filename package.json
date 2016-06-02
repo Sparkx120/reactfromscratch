@@ -1,10 +1,12 @@
 {
   "name": "reactfromscratch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Site Base Structure to build up from",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --port 3000 --watch --colors --hot"
   },
   "author": "James Wake <sparkx120@sparkx120.com> (http://sparkx120.com)",
   "license": "MIT",
@@ -21,6 +23,7 @@
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
   }
 }
